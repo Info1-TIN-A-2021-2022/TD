@@ -58,6 +58,7 @@ int main(int argc, char const *argv[])
     printf("%-30s %lu\n", "size of short =", sizeof(short));
     printf("%-30s %lu\n", "size of int =", sizeof(int));
 
-    
+        puts("------");
+
     return 0;
 }
