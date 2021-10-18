@@ -1,0 +1,18 @@
+version: 1
+filters:
+  #lowercase: true
+  trim: true
+
+tests:
+  - name: results
+    tests:
+    - name: nominal test addition
+      args: ["1","2","+"]
+      stdout:
+        - contains: "3"
+      exit: 0
+    - name: nominal test product
+      args: ["5","4","x"]
+      stdout:
+        - contains: "=+20"
+      exit: 0
