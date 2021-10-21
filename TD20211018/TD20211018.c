@@ -8,6 +8,7 @@
 
 #include <stdio.h>
 #include <math.h>
+#include <string.h>
 
 int main(int argc, char const *argv[])
 {
@@ -53,12 +54,43 @@ int main(int argc, char const *argv[])
     printf("s=[%30s]\n", s);
     printf("s=[%-30s]\n", s);
 
-    puts("*** Labo03.1 ***");
+    puts("------");
     printf("size of int = %lu\n", sizeof(int));
     printf("%-30s %lu\n", "size of short =", sizeof(short));
     printf("%-30s %lu\n", "size of int =", sizeof(int));
 
-        puts("------");
+    puts("------");
+  
+    printf("f=[%f]\n", f);
+    printf("d=[%lf]\n", d);
+
+    printf("d=[%10.2lf]\n", d); // 10: total width,  2: numbers after decimal point
+    
+    // XXX.XXXXXXXXX => 14.10
+
+    printf("d=[%+10.2lf]\n", d); 
+    printf("d=[%+-10.2lf]\n", d); 
+
+    int n=5;
+    printf("d=[%+-10.*lf]\n", n, d); 
+
+    int m=14;
+    printf("d=[%+-*.*lf]\n", m, n, d); 
+
+    printf("d=[%g]\n", d);
+    printf("d=[%g]\n", d*100000000);
+
+    printf("d=[%e]\n", d);
+
+
+    // #include <string.h>
+    // pour le 1er novembre 2021
+    const char s3[]="Leo est beau";
+    const unsigned int width=20;
+    printf("String length=%ld\n", strlen(s3));
+    /////
+    // display: [    Leo est beau    ]
+    /////
 
     return 0;
-}
+} 
