@@ -14,4 +14,5 @@ Il est mis à jour à la fin de chaque cours.
 |TD20211007| RPN (suite) |
 |TD20211011| display at console and get value from keyboard	|
 |TD20211018| formatted print |
+|TD20211101| color space RGB to XYZ to Lab |
 || [Snippets vscode](https://code.visualstudio.com/docs/editor/userdefinedsnippets)|
