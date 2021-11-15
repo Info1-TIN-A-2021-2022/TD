@@ -16,4 +16,5 @@ Il est mis à jour à la fin de chaque cours.
 |TD20211018| formatted print |
 |TD20211101| color space RGB to XYZ to Lab |
 |TD20211108| formatted scanf |
+|TD20211111| loops |
 || [Snippets vscode](https://code.visualstudio.com/docs/editor/userdefinedsnippets)|
