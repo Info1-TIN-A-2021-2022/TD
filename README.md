@@ -20,4 +20,5 @@ Il est mis à jour à la fin de chaque cours.
 |TD20211111| control structures |
 |TD20211115| control structures |
 |TD20211122| control structures |
+|TD20211127| algorithms |
 || [Snippets vscode](https://code.visualstudio.com/docs/editor/userdefinedsnippets)|
