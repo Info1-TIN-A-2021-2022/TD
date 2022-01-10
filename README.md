@@ -25,4 +25,5 @@ Il est mis à jour à la fin de chaque cours.
 |TD20211209| functions - passage par adresse|
 |TD20211213| functions - passage par adresse|
 |TD20211220| tableaux 1D, 2D|
+|TD20220110| tableaux 1D, 2D suite|
 || [Snippets vscode](https://code.visualstudio.com/docs/editor/userdefinedsnippets)|
